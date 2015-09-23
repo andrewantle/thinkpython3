@@ -2,7 +2,7 @@
 Stacks
 
 Think Python - Chapter 18:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap18.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap18.html>
 '''
 
 

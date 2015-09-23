@@ -2,7 +2,7 @@
 Trees
 
 Think Python - Chapter 20:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap20.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap20.html>
 
 A tree is either:
 
@@ -75,11 +75,9 @@ def get_token_list(expression):
     token_list = []
 
     for token in expression:
-
         if token in '0123456789':
             token = int(token)
         token_list.append(token)
-
     token_list.append('end')    # Easier to parse
 
     return token_list
@@ -90,7 +88,6 @@ def get_token(token_list, expected):
     result = False
 
     if token_list != []:
-
         if token_list[0] == expected:
             del token_list[0]
             result = True
@@ -105,13 +102,11 @@ def get_number(token_list):
     result = None
 
     if token_list != []:
-
         if get_token(token_list, '('):
             result = get_sum(token_list)    # Get the subexpression
             get_token(token_list, ')')
         else:
             token = token_list[0]
-
             if isinstance(token, int):
                 #del token_list[0]      # This works, but I don't know why.
                 token_list[0:1] = []    # Safer? replace instead of delete,
@@ -124,7 +119,6 @@ def get_product(token_list):
     '''Build an expression tree for products; e.g., 3 * 7.'''
     result = None
     operator = '*'
-
     left = get_number(token_list)
 
     if get_token(token_list, operator):
@@ -144,7 +138,6 @@ def get_sum(token_list):
     '''
     result = None
     operator = '+'
-
     left = get_product(token_list)
 
     if get_token(token_list, operator):

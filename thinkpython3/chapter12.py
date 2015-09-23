@@ -2,7 +2,7 @@
 Classes and Objects
 
 Think Python - Chapter 12:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap12.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap12.html>
 '''
 
 

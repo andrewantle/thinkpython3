@@ -6,10 +6,8 @@ def setup():
     print("SETUP!")
 
 
-
 def teardown():
     print("TEARDOWN!")
-
 
 
 def test_card():

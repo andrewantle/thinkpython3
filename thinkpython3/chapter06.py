@@ -2,7 +2,7 @@
 Iteration
 
 Think Python - Chapter 6:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap06.html>
 '''
 
 from time import sleep
@@ -44,7 +44,7 @@ def print_times_table(number):
     '''Iterate from 1 up to the given number, printing the times table.'''
     if number < 0:
         number = 0
-
+        
     stop = number + 1
 
     for row in range(1, stop):

@@ -2,7 +2,7 @@
 Queues
 
 Think Python - Chapter 19:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap19.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap19.html>
 '''
 
 from thinkpython3.chapter17 import Node
@@ -23,10 +23,8 @@ class Queue:
 
         if self.head is not None:
             last = self.head    # Find the last node
-
             while last.next is not None:
                 last = last.next
-            
             last.next = node    # Append the new node
         else:
             self.head = node    # The list is empty, so the new node goes first

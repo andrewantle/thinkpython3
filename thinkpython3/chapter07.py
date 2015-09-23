@@ -2,7 +2,7 @@
 Strings
 
 Think Python - Chapter 7:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap07.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap07.html>
 '''
 
 
@@ -29,7 +29,6 @@ def find_first_index(source, to_find, start=0):
     start, stop = boundary_check(start, stop)
 
     for index in range(start, stop):
-
         if source[index] == to_find:
             to_find_index = index
             break   # Found it, stop searching
@@ -48,13 +47,10 @@ def boundary_check(start, stop):
             start = int(start)
         except ValueError:
             start = 0
-
     if start < 0:
         start = 0
-
     if stop < 0:
         stop = 0
-
     if start > stop:
         start = stop
 

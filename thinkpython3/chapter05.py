@@ -2,7 +2,7 @@
 Fruitful Functions
 
 Think Python - Chapter 5:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap05.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap05.html>
 '''
 
 
@@ -57,7 +57,6 @@ def fibonacci(number):
     result = -1
 
     if is_valid_data(number):
-
         if number == 0 or number == 1:
             result = 1
         else:
@@ -71,24 +70,14 @@ def is_valid_data(number):
     result = True
     message = '==> Please correct the following error(s):\n'
 
-    # Integer?
     if not isinstance(number, int):
-
-        # No
         result = False
         message += '-number must be an integer\n'
-
-    # Yes, zero or positive?
     elif number < 0:
-
-        # No
         result = False
         message += '-number must not be negative\n'
 
-    # Is the data bad?
     if not result:
-
-        # Yes, warn the user
         print(message)
 
     return result

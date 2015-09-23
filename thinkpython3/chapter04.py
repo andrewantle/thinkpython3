@@ -2,7 +2,7 @@
 Conditionals and Recursion
 
 Think Python - Chapter 4:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html>
 '''
 
 from time import sleep

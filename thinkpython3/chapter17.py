@@ -2,7 +2,7 @@
 Linked Lists
 
 Think Python - Chapter 17:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap17.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap17.html>
 
 A linked list is either:
 
@@ -68,7 +68,6 @@ def print_list(node):
     while node is not None:
         print(node, end='')
         node = node.next
-
         if node is not None:
             print(', ', end='')
 
@@ -126,7 +125,6 @@ def remove_second(node):
     if node is not None:
         first = node
         second = node.next
-
         if second is not None:
             first.next = second.next
             second.next = None

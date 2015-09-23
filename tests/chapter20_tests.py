@@ -6,10 +6,8 @@ def setup():
     print("SETUP!")
 
 
-
 def teardown():
     print("TEARDOWN!")
-
 
 
 def test_tree():
@@ -28,7 +26,6 @@ def test_tree():
     assert tree.right.cargo == 3
 
 
-
 def test_total():
     '''Test the total function.'''
     left = Tree(2)
@@ -40,7 +37,6 @@ def test_total():
         print(result)
 
     assert result == 6
-
 
 
 def test_display():
@@ -58,7 +54,6 @@ def test_display():
         print()
 
 
-
 def test_get_token_list():
     '''Test the get_token_list function.'''
     expression = '(3+7)*9'
@@ -73,7 +68,6 @@ def test_get_token_list():
     # assert token_list == ['end']
     # assert token_list == ['(', '3', '+', '7', ')', '*', '9', 'end']
     assert token_list == ['(', 3, '+', 7, ')', '*', 9, 'end']
-
 
 
 def test_get_token():
@@ -111,7 +105,6 @@ def test_get_token():
     assert token_list == []
 
 
-
 def test_get_token_from_empty_list():
     '''Test the get_token function on an empty list.'''
     token_list = []
@@ -119,7 +112,6 @@ def test_get_token_from_empty_list():
     # Try to get a token from an empty list
     result = get_token(token_list, 'ABC')
     assert not result
-
 
 
 def test_get_number():
@@ -133,7 +125,6 @@ def test_get_number():
 
     assert isinstance(token, Tree)
     assert token.cargo == 9
-
 
 
 def test_get_product():
@@ -162,7 +153,6 @@ def test_get_product():
     if DEBUG:
         display_infix(tree)
         print()
-
 
 
 def test_get_sum():

@@ -26,6 +26,8 @@ Modified and rewritten for Python 3 by Andrew Antle 2015.
 
 <http://ndndndnd.org>
 
+You may use this code if you like, but it's mostly for my own use.
+Please see the links above instead.
 
 Run Tests
 ---------

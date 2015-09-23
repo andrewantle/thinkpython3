@@ -2,7 +2,7 @@
 Sets of Objects
 
 Think Python - Chapter 15:
-    <http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap15.html>
+<http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap15.html>
 '''
 
 from random import randrange
